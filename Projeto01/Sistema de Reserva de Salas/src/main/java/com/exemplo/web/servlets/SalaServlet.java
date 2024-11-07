@@ -1,4 +1,4 @@
-
+package com.exemplo.web.servlets;
 
 import jakarta.servlet.ServletException;
 import jakarta.servlet.annotation.WebServlet;
@@ -8,16 +8,16 @@ import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
 /**
- * Servlet implementation class Sala
+ * Servlet implementation class SalaServlet
  */
-@WebServlet("/Sala")
-public class Sala extends HttpServlet {
+@WebServlet("/SalaServlet")
+public class SalaServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
     /**
      * @see HttpServlet#HttpServlet()
      */
-    public Sala() {
+    public SalaServlet() {
         super();
         // TODO Auto-generated constructor stub
     }
