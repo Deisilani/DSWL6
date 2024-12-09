@@ -1,0 +1,125 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f5f7; /* Fundo lilás pastel */
+    color: #4a4a4a; /* Cinza escuro para contraste */
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    color: #6b4b8a; /* Roxo pastel */
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo do formulário */
+form {
+    background-color: #ffffff; /* Branco */
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+form input, form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #d0d0d0;
+    font-size: 14px;
+}
+
+/* Botões */
+button {
+    background-color: #ffe6a8; /* Amarelo pastel */
+    border: none;
+    color: #4a4a4a;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #ffd37b; /* Amarelo mais vibrante */
+}
+
+/* Links */
+a {
+    color: #6b4b8a; /* Roxo pastel */
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Tabela */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    border: 1px solid #e0e0e0;
+    padding: 10px;
+    text-align: center;
+}
+
+table th {
+    background-color: #d1c4e9; /* Lilás pastel */
+    color: #4a4a4a;
+}
+
+table tr:nth-child(even) {
+    background-color: #f3edf7; /* Fundo lilás claro */
+}
+
+/* Estilos para as mensagens */
+.message-container {
+    text-align: center;
+    margin: 50px auto;
+}
+
+.message {
+    background-color: #ffffff;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.message p {
+    font-size: 18px;
+    color: #4a4a4a;
+}
+
+.message a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #ffe6a8;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.message a:hover {
+    background-color: #ffd37b;
+}
